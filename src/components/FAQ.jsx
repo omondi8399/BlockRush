@@ -14,6 +14,20 @@ const FAQ = () => {
                         <p>LLorem ipsum....Add something later</p>
                     </div>
                 </div>
+                <div className='qa'>
+                    <input type='checkbox' id='collapsible-head-4' />
+                    <label for="collapsible-head-4">What chain do BlockRush support?</label>
+                    <div class="collapsible-text-4">
+                        <p>LLorem ipsum....Add something later</p>
+                    </div>
+                </div>
+                <div className='qa'>
+                    <input type='checkbox' id='collapsible-head-4' />
+                    <label for="collapsible-head-4">What chain do BlockRush support?</label>
+                    <div class="collapsible-text-4">
+                        <p>LLorem ipsum....Add something later</p>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
