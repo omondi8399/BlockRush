@@ -5,6 +5,7 @@ import Container from './Container'
 import Section from './Section'
 import Testimonials from './Testimonials'
 import FAQ from './FAQ'
+import Footer from './Footer'
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Section />
             <Testimonials />
             <FAQ />
+            <Footer />
         </div>
     )
 }
