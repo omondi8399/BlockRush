@@ -14,6 +14,28 @@ const Section = () => {
                 <img src="globe.png" alt='' />
             </div>
         </div>
+        <div className='card-section'>
+            <div className='cards'>
+                <div className='card'>
+                    <img src='globe.png' alt='' />
+                    <h1>Easy Account Registration</h1>
+                    <p>Global banking made easy and available in 140+ countries</p>
+                    <a href='/'>learn &rarr;</a>
+                </div>
+                <div className='card'>
+                    <img src='globe.png' alt='' />
+                    <h1>Easy Account Registration</h1>
+                    <p>Global banking made easy and available in 140+ countries</p>
+                    <a href='/'>learn &rarr;</a>
+                </div>
+                <div className='card'>
+                    <img src='globe.png' alt='' />
+                    <h1>Easy Account Registration</h1>
+                    <p>Global banking made easy and available in 140+ countries</p>
+                    <a href='/'>learn &rarr;</a>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
