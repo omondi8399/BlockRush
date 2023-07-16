@@ -1,17 +1,16 @@
-import React, { useState, useEffect } from 'react'
+import React,{useState, useEffect} from 'react'
 
-
-const NavBar = () => {
+const Navbar = () => {
     const [showNav, setShowNav] = useState(false)
 
-    useEffect(() => {
+    useEffect (() => {
         const innernav = document.querySelector('.inner-nav')
-        if (showNav === true){
+        if(showNav === true){
             innernav.style.left = '0px'
-        } else {
+        }
+        else{
             innernav.style.left = '-300px'
         }
-
     }, [showNav])
 
     const handleClick = () => {
@@ -19,23 +18,23 @@ const NavBar = () => {
     }
   return (
     <div className='navbar'>
-        <div onClick={handleClick} className={`${showNav ? "hamburger1": "hamburger"}`}></div>
+        <div onClick={handleClick} className={`${showNav ? "hamburger1":"hamburger"}`}></div>
         <div className='logo'>
             <h1>BLOCKRUSH</h1>
             <nav className='menu'>
                 <ul className='inner-nav'>
-                    <li><a href='#hub'>Hub</a></li>
-                    <li><a href='#mint'>Mint</a></li>
-                    <li><a href='#features'>Features</a></li>
-                    <li><a href='#socials'>Socials</a></li>
+                    <li><a href="#hub">Hub</a></li>
+                    <li><a href="#mint">Mint</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#socials">Socials</a></li>
                 </ul>
             </nav>
         </div>
         <div className='button'>
-            <a href='/'>Contact Us</a>
+            <a href="/">Contact Us</a>
         </div>
     </div>
   )
 }
 
-export default NavBar
+export default Navbar
